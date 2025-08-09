@@ -2,6 +2,4 @@ from flask import Flask
 
 app = Flask(__name__)
 
-from server import app as application
-if __name__ == "__main__":
-    application.run()
+app.secret_key = 'keep it secret, keep it safe' # set a secret key for security
