@@ -10,4 +10,3 @@ app.secret_key = 'keep it secret, keep it safe' # set a secret key for security
 
 if __name__ == "__main__":
     app.run(debug=True)
-kjhkjhkj
